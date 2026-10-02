@@ -55,7 +55,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 # Auto delete time in seconds.
-AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "False"))
+AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "0"))
 AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "Yeh Files Delete Nahi Hongi, Lekin Storage Se Hatane Ke Liye Telegram Se Storage Cache Delete Kar Lena.")
 AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "File Delete Kar Di Gayi Hain ✅. Agar Aapne Miss Kar Diya Toh Website Se Wapas File Generate Kar Levein.")
 
